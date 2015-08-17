@@ -29,6 +29,7 @@ method TAMC
 steps 42 
 ```
 
+```
 [15:55:39 alin@abaddon:~/playground/cli-boost/build]: bin/cli -h
 Command line Options:
 Command Line and Config File Options:
@@ -42,9 +43,12 @@ Command Line Only Options:
 Config File Options:
   -s [ --steps ] arg (=42)             Number of steps
   -m [ --method ] arg (=TAMC)          Method to be employed
+```
 
+```
 [15:55:41 alin@abaddon:~/playground/cli-boost/build]: bin/cli 
 Echo the options used
 config options.conf
 method TAMC
 steps 42
+```

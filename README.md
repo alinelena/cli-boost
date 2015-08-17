@@ -20,12 +20,14 @@ make docs
 
 #sample usage
 
-`[15:55:36 alin@abaddon:~/playground/cli-boost/build]: bin/cli 
+```
+[15:55:36 alin@abaddon:~/playground/cli-boost/build]: bin/cli 
 Creating empty config file 
 Echo the options used 
 config options.conf 
 method TAMC 
-steps 42 `
+steps 42 
+```
 
 [15:55:39 alin@abaddon:~/playground/cli-boost/build]: bin/cli -h
 Command line Options:

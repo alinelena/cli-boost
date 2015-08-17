@@ -1,24 +1,23 @@
 # cli-boost
 simple example on how to use boost to handle command line interface. The example is from an old simple molecular dynamics programme I have written long time ago
 
-clone the project... 
-
-get inside... 
-
+##build the project 
+```
+#clone the project... 
+git clone https://github.com/alinelena/cli-boost.git
+#get inside... 
+pushd cli-boost
 mkdir -p build
-
 pushd build
-
 cmake ../
-
 make
-
 make test
-
 make docs
+popd
+popd
+```
 
-
-#sample usage
+##sample usage
 
 ```
 [15:55:36 alin@abaddon:~/playground/cli-boost/build]: bin/cli 
